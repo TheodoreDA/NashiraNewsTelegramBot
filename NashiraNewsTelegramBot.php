@@ -13,7 +13,7 @@
     use Abraham\TwitterOAuth\TwitterOAuth;
 
     $envVar = new EnvVars(__DIR__.'/.env');
-    $logger = new Logger(__DIR__.'/LogTwitterBot.txt');
+    $logger = new Logger();
 
 
     $logger->print("Welcome to our very custom NashiraNews's TwitterBot!");

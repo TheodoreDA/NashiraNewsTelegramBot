@@ -3,7 +3,7 @@
 class Logger {
     protected $path;
 
-    public function __construct(string $path=__DIR__.'/LogTwitterBot.txt') {
+    public function __construct(string $path=__DIR__.'/LogNashiraBot.txt') {
         if (file_exists($path))
             file_put_contents($path, '');
         else
